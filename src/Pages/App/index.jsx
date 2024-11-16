@@ -1,4 +1,5 @@
 import { useRoutes, BrowserRouter } from 'react-router-dom' //npm install react-router-dom
+import { ShippingCartProvider } from '../../Components/Context'
 import Home from '../Home'
 import MyAcount from '../MyAccount'
 import MyOrder from '../MyOrder'
@@ -26,10 +27,12 @@ const App = () => {
 
 
   return (
-    <BrowserRouter>
-      <AppRoutes />
-      <Navbar />
-    </BrowserRouter>
+    <ShippingCartProvider>
+      <BrowserRouter>
+        <AppRoutes />
+        <Navbar />
+      </BrowserRouter>
+    </ShippingCartProvider>
   )
 }
 
