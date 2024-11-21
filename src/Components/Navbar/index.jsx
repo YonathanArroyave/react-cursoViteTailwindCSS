@@ -17,58 +17,11 @@ const Navbar = () => {
                         Shopi
                     </NavLink>
                 </li>
-                <li>
-                    <NavLink to='/all'
-                        className={({ isActive }) =>
-                            isActive ? activeStyle : undefined
-                        }>
-                        All
-                    </NavLink>
-                </li>
-                <li>
-                    <NavLink to='/clothes'
-                        className={({ isActive }) =>
-                            isActive ? activeStyle : undefined
-                        }>
-                        Clothes
-                    </NavLink>
-                </li>
-                <li>
-                    <NavLink to='/electonic'
-                        className={({ isActive }) =>
-                            isActive ? activeStyle : undefined
-                        }>
-                        Electonic
-                    </NavLink>
-                </li>
-                <li>
-                    <NavLink to='/furnitures'
-                        className={({ isActive }) =>
-                            isActive ? activeStyle : undefined
-                        }>
-                        Furnitures
-                    </NavLink>
-                </li>
-                <li>
-                    <NavLink to='/toys'
-                        className={({ isActive }) =>
-                            isActive ? activeStyle : undefined
-                        }>
-                        Toys
-                    </NavLink>
-                </li>
-                <li>
-                    <NavLink to='/otrers'
-                        className={({ isActive }) =>
-                            isActive ? activeStyle : undefined
-                        }>
-                        Otrers
-                    </NavLink>
-                </li>
+                
             </ul>
             <ul className="flex items-center gap-3">
                 <li className="text-black/60">
-                    CorreoQuemado@gmail.com
+                    yonatan.arroyave.rosero@gmail.com
                 </li>
                 <li>
                     <NavLink to='/my-orders'
